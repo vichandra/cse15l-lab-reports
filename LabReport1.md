@@ -1,19 +1,19 @@
 A screenshot or Markdown code block showing the command and its output
 What the working directory was when the command was run
 A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. //
+Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866649073750077/Screenshot_2023-10-22_at_9.00.15_PM.png?ex=654868ed&is=6535f3ed&hm=5c4befe1998cec140b0386512546df0f04b811e6287bee562aeeb52546420df0&)
 
+The Command is ls, the working directory is Users/virajchandra, and the output listed all the directories or files within virajchandra. when within a directory ls will return all directories or files within it if there is no argument.
 
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/97e23f96-b639-4a05-97bd-c9799a628443) 
 
-Working Directory: Home.
-when typing in change directory, I did not get any errors, but nothing happened. this is because I did not specify what directory that I want to change to.
+![image]([https://cdn.discordapp.com/attachments/974137838180380672/1165866649342193746/Screenshot_2023-10-22_at_9.01.38_PM.png?ex=654868ed&is=6535f3ed&hm=93b1becbe1e1abd7d0abfc6ad04fa0b9af1e203ce964ae010ce77ff64715459a&](https://cdn.discordapp.com/attachments/974137838180380672/1165866649660964864/Screenshot_2023-10-22_at_9.02.30_PM.png?ex=654868ee&is=6535f3ee&hm=2b1d7a7dbadf5f2da3ac7898533ba5d065189e9fa5a53b09cf4b2e25138d2877&))
 
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/3d11e965-1f82-4562-a374-e3cc03324857)
+The Command is ls, the working directory is Users/virajchandra/Deskstop/wavelet/Server.java. The output listed the pathway, because a file is not a directory and cant contain other files or directories within it.
 
-Working Directory: Home.
-typing in ls did not cause any error, as it listed all the directories or files located within the directory that I was in. It did what it was told.
+![image]([https://github.com/vichandra/cse15l-lab-reports/assets/147004387/3d11e965-1f82-4562-a374-e3cc03324857](https://cdn.discordapp.com/attachments/974137838180380672/1165866649342193746/Screenshot_2023-10-22_at_9.01.38_PM.png?ex=654868ed&is=6535f3ed&hm=93b1becbe1e1abd7d0abfc6ad04fa0b9af1e203ce964ae010ce77ff64715459a&))
+
+The command is ls, the working directory is Users/virajchandra/Deskstop. This is a path to directory. The output listed all the directories and files within Desktop.
 
 ![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/7e7bd44f-7906-4c07-8166-4f8b28335f3b)
 
