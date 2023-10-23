@@ -1,8 +1,9 @@
 A screenshot or Markdown code block showing the command and its output
 What the working directory was when the command was run
 A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
+Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. //
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866649073750077/Screenshot_2023-10-22_at_9.00.15_PM.png?ex=654868ed&is=6535f3ed&hm=5c4befe1998cec140b0386512546df0f04b811e6287bee562aeeb52546420df0&)
+
 
 ![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/97e23f96-b639-4a05-97bd-c9799a628443) 
 
