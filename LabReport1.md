@@ -15,11 +15,11 @@ The Command is ls, the working directory is Users/virajchandra/Deskstop/wavelet/
 
 The command is ls, the working directory is Users/virajchandra/Deskstop. This is a path to directory. The output listed all the directories and files within Desktop.
 
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/7e7bd44f-7906-4c07-8166-4f8b28335f3b)
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866649958748220/Screenshot_2023-10-22_at_9.10.53_PM.png?ex=654868ee&is=6535f3ee&hm=17d527957e19548e98fac492192f8c649abf72d596713b2689824235b1a461aa&)
 
 Working Directory: Home.
 Typing in cat without any arguments does not tell the computer what file that I am looking or want to create. However, it does not appear to be an error.
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/bccd62d1-e742-4813-ac25-10032a8cc36e) 
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866650516602920/Screenshot_2023-10-22_at_9.14.25_PM.png?ex=654868ee&is=6535f3ee&hm=987672bc438fd2ba22fb59b2e7d88b0d67e293ccd1a541db6aef3541c56655e3&) 
 
 Working Directory: Home.
 typing in cd lecture1 does change the directory to lecture1, instead of home, because we passed lecture1 as the argument for cd.
@@ -27,15 +27,15 @@ typing in cd lecture1 does change the directory to lecture1, instead of home, be
 
 Working Directory: Home.
 ls lecture one works because the directory is specified so it lists all the files and directories within lecture1
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/4da720e6-7fbe-439c-9b47-d67dcb044c8d)
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866650801803274/Screenshot_2023-10-22_at_9.15.29_PM.png?ex=654868ee&is=6535f3ee&hm=252a792b84b9b182787e63e88b813f34acd37e1e747af11647fd10b82710a155&)
 
 Working Directory: Home.
 using cat as a command here works because I am specifying what directory or file I want to view.
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/cf3ebed8-b1e2-454d-88d9-b4c515273d98)
+![image]([https://github.com/vichandra/cse15l-lab-reports/assets/147004387/cf3ebed8-b1e2-454d-88d9-b4c515273d98](https://cdn.discordapp.com/attachments/974137838180380672/1165866720511152168/Screenshot_2023-10-22_at_8.56.16_PM.png?ex=654868fe&is=6535f3fe&hm=45d6bf100bf03a24e6ded6ef793b421a365b97de82f23e1853253b0dd41119a3&))
 
 Working Directory: Home.
 using cat as a command here works because I am specifying the exact file I want to view.
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/50e8a1eb-f338-460a-a903-a54fb25ec664) 
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866721358401556/Screenshot_2023-10-22_at_8.57.12_PM.png?ex=654868ff&is=6535f3ff&hm=c3f945962c3d233e27c76a50adf81c63a6e7cfea7321a73b8eb70104d4013393&) 
 
 Working Directory: Home.
 This did cause an error because files are not directories. I cannot change directory to a file, only to a folder.
