@@ -21,12 +21,7 @@ Working Directory: Home.
 Typing in cat without any arguments does not tell the computer what file that I am looking or want to create. However, it does not appear to be an error.
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866650516602920/Screenshot_2023-10-22_at_9.14.25_PM.png?ex=654868ee&is=6535f3ee&hm=987672bc438fd2ba22fb59b2e7d88b0d67e293ccd1a541db6aef3541c56655e3&) 
 
-Working Directory: Home.
-typing in cd lecture1 does change the directory to lecture1, instead of home, because we passed lecture1 as the argument for cd.
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/3f8b55e2-1599-479d-8777-d3321a35b0b7)
 
-Working Directory: Home.
-ls lecture one works because the directory is specified so it lists all the files and directories within lecture1
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866650801803274/Screenshot_2023-10-22_at_9.15.29_PM.png?ex=654868ee&is=6535f3ee&hm=252a792b84b9b182787e63e88b813f34acd37e1e747af11647fd10b82710a155&)
 
 Working Directory: Home.
@@ -36,14 +31,6 @@ using cat as a command here works because I am specifying what directory or file
 Working Directory: Home.
 using cat as a command here works because I am specifying the exact file I want to view.
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1165866721358401556/Screenshot_2023-10-22_at_8.57.12_PM.png?ex=654868ff&is=6535f3ff&hm=c3f945962c3d233e27c76a50adf81c63a6e7cfea7321a73b8eb70104d4013393&) 
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1165877798230052925/Screenshot_2023-10-22_at_10.01.53_PM.png?ex=65487350&is=6535fe50&hm=720a6b74840473e230edb0e2d3c0929b9fa8a4c262e6698687bbcae892f9f198&)
 
-Working Directory: Home.
-This did cause an error because files are not directories. I cannot change directory to a file, only to a folder.
-![image](https://github.com/vichandra/cse15l-lab-reports/assets/147004387/4b37a33f-5f6e-4a4d-9a26-c50bccfce6d3)
-
-Working Directory: Home.
-There is no problem or error here because ls is simply just relisting the pathway that we took to get to the specific file.
-
-
-
-
+This image above contains the three scenarios as provided, cd without an argument, cd with a path to a directory as an argument, and cd with a path to a file as and argument. For cd with no argument, the working directory was /Users/virajchandra which was the parent directory. this means that cd generally without any arugments, goes to the root, but since we were at the root already, nothing happened. When passing the a directory path as an argument(Users/virajchandra/Desktop/wavelet), it changed to the directory as expected. However, (Users/virajchandra/Desktop/wavelet/Server.java) caused an error because we cannot change directory into a file.
