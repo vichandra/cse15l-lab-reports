@@ -27,4 +27,5 @@ Public Key via ieng6:
 
 
 
-#What I have learned in Lab:
+What I have learned in Lab:
+I did not really understand how to log into a private server, what ssh is, and why they are useful. learning this has opened my interest and perspective to the range of utilities avaialbe to me. I appreciated learning the process of building my own webserver, and and understanding how the differents parts of the URL path can be implemented to provide different functionalities.
