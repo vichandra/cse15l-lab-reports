@@ -19,7 +19,7 @@ Effect : The tests ran and there was one failure that was indicated
 
 Inorder to change the results of the ListExamples.java, we have to use the command vim. To edit ListExamples.java, I typed in: vim ListExamples.java. This led me to the image display above. I typed j 23 times inorder to scroll down to the line that I wanted to edit inorder to achieve a pass on the junit tests. \
 ```Keys pressed :
-vim ListExamples.java<Enter><Backspace><2><Esc><:wq><Enter>
+vim ListExamples.java<Enter><j><j>.....<j><l><l><l>...<l><i><Backspace><2><Esc><:wq><Enter>
 ```
 Effect : The changes were made to the file and were saved
 
