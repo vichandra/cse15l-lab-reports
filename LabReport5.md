@@ -19,13 +19,17 @@ I ran it again and I got:
 Before fixing the bug:
 
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1181125937685856337/Screenshot_2023-12-03_at_10.52.25_PM.png?ex=657fec3f&is=656d773f&hm=453e834ef8dfa3293e3f607a54b3b57915368ed8f19b11f9763aafb27bcd1c06&)
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1181126382382759946/Screenshot_2023-12-03_at_10.49.36_PM.png?ex=657feca9&is=656d77a9&hm=409fa46fb2ce59f912876e4b5012c3e1f6280ba7175fee8cab6186b86437378e&)
 After fixing the bug:
-
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1181124972383567952/Screenshot_2023-12-03_at_10.48.45_PM.png?ex=657feb59&is=656d7659&hm=7e9a91ed0333f9dae08737933d52cf670ffd3006a6506d125c980b9fbfbf7ec7&)
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1181125937941717062/Screenshot_2023-12-03_at_10.52.35_PM.png?ex=657fec3f&is=656d773f&hm=12bcb089e5112d7bbf13d464e8ccd78f0408322bdbddcda16394071549d27c46&)
 
+Commands run to trigger the bug: bash run.sh
+This allows me to see what the output of the code is and check to see if it is what I expected
 
+Inorder to fix the bug, I had to change the forloop to condition to: for (int i = 0; i <= input.length(); i++) instead of for (int i = 0; i < input.length(); i++)
 
-File Structure:
+File and Directory Structure:
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1181125629173833729/Screenshot_2023-12-03_at_10.50.50_PM.png?ex=657febf6&is=656d76f6&hm=b7c4aa3cb538c43104a09e4cf2c5ef3206f5c47942a694c8b14bb3faab7af214&)
 
 
