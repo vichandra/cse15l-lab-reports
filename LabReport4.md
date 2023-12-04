@@ -7,12 +7,16 @@ Following the second step, I used the SSH link from the lab 7 lab. I then typed 
 
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986682070282380/Screenshot_2023-11-26_at_6.04.50_PM.png?ex=657f6a8e&is=656cf58e&hm=7c1ac0f7511326abc06d691d89db53c04679693a4da3c7ab655130df63e92e34&)
 
-The next step was to compile and run the tests using Junit. Inorder to do this, I copied the example provided in Lab 7. I copy pasted it and adjusted it to look like this: 
+The next step was to compile and run the tests using Junit. Inorder to do this, I copied the example provided in Lab 7. I copy pasted it and adjusted it to look like this: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java , ava -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTest.java which had the junit testing. Upon running these two commands, I was given the message that one of them was failing the junit test. This means we have to use the vim command to open up the ListExamples.java and fix the bug
 
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986682422595695/Screenshot_2023-11-26_at_6.36.26_PM.png?ex=657f6a8e&is=656cf58e&hm=82f3cae01b14d114d3d62845e8423a19830e3388cbfcc9baacea147995cef15c&)
-![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986683278229544/Screenshot_2023-11-26_at_6.37.10_PM.png?ex=657f6a8e&is=656cf58e&hm=d419994afada827fb95225540dff232943ade8a00b6d340b5c674aa2793c2204&)
 
-![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986681097212005/Screenshot_2023-11-26_at_5.44.05_PM.png?ex=657f6a8e&is=656cf58e&hm=3821345ba2e6e9f3e91c1d6552d8596045250d166ba7b5ee0df90af50968c943&)
+Inorder to change the results of the ListExamples.java, we have to use the command vim. To edit ListExamples.java, I typed in: vim ListExamples.java. This led me to the image display above. I typed <j> repeatedly inorder to scroll down to the line that I wanted to edit inorder to achieve a pass on the junit tests.
+
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986683278229544/Screenshot_2023-11-26_at_6.37.10_PM.png?ex=657f6a8e&is=656cf58e&hm=d419994afada827fb95225540dff232943ade8a00b6d340b5c674aa2793c2204&)
+Upon the edits in vim, I decided to use the test.sh file that available, because it contained the commands I had copied from lab7 already existing within it. all I had to type out was: bash test.sh. This was done in the terminal and displayed the success of the 2 tests.
+
+![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986683617980538/Screenshot_2023-11-26_at_6.44.16_PM.png?ex=657f6a8f&is=656cf58f&hm=78318e7eb4e3e5adb19618c2143abdad2fcec35317cb2f244daf50c575cd8d2f&)
 
 ![image]()
 
