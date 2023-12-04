@@ -18,7 +18,7 @@ Effect : The tests ran and there was one failure that was indicated
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986682422595695/Screenshot_2023-11-26_at_6.36.26_PM.png?ex=657f6a8e&is=656cf58e&hm=82f3cae01b14d114d3d62845e8423a19830e3388cbfcc9baacea147995cef15c&)
 
 Inorder to change the results of the ListExamples.java, we have to use the command vim. To edit ListExamples.java, I typed in: vim ListExamples.java. This led me to the image display above. I typed <j> 23 times inorder to scroll down to the line that I wanted to edit inorder to achieve a pass on the junit tests.
-Keys pressed : `<vim Examples.java><j><j><j><j>......<j><l><l><l>...<l><i><Backspace><2><Esc><:wq><Enter>`\
+Keys pressed : `<vim Examples.java><j><j><j><j><j><l><l><l><l><i><Backspace><2><Esc><:wq><Enter>`\
 Effect : The changes were made to the file and were saved
 
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986683278229544/Screenshot_2023-11-26_at_6.37.10_PM.png?ex=657f6a8e&is=656cf58e&hm=d419994afada827fb95225540dff232943ade8a00b6d340b5c674aa2793c2204&)
