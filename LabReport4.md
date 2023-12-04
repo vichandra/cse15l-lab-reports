@@ -32,7 +32,8 @@ Effect : The tests ran and both passed
 
 Inorder to keep the changes that I have made, I needed to add and commit the new edits to the lab7 fork I created within github. I needed to type: git add ListExamples.java, git commit -m "commit changes".\
 
-```Keys pressed : 
+Keys pressed : \
+```
 git add ListExamples.java<Enter>
 git commit -m "commit changes"
 ```
