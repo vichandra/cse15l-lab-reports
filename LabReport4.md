@@ -18,10 +18,7 @@ Upon the edits in vim, I decided to use the test.sh file that available, because
 
 ![image](https://cdn.discordapp.com/attachments/974137838180380672/1180986683617980538/Screenshot_2023-11-26_at_6.44.16_PM.png?ex=657f6a8f&is=656cf58f&hm=78318e7eb4e3e5adb19618c2143abdad2fcec35317cb2f244daf50c575cd8d2f&)
 
-![image]()
+Inorder to keep the changes that I have made, I needed to add and commit the new edits to the lab7 fork I created within github. I needed to type: git add ListExamples.java, git commit -m "commit changes".
 
-![image]()
-
-![image]()
 
 
